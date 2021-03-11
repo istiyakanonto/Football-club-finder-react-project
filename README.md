@@ -9,7 +9,7 @@ gives me club description. Then I update my code but in netlify live site it cha
 ## Live site Link
 https://604a1307fb3dbf8e256a7241--reverent-babbage-73b5e4.netlify.app/ (This link which i used (lrem100). This link i submit in programming hero assignment 8.
 
-https://reverent-babbage-73b5e4.netlify.app/ (this link i useed strDescriptionEN,strStadiumDescription) for club description.
+https://604a2907bf3ebe0088e71b4a--reverent-babbage-73b5e4.netlify.app/club-details/133601 (this link i useed strDescriptionEN,strStadiumDescription) for club description.
 
 ### Used Functionality and components 
  Firstly, Here the main function is routing. You can change your route position dynamically. 
