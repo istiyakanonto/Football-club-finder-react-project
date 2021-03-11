@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Football-club-Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my new react project. I hope you like it
 
-## Available Scripts
+## Please Consider That***
+please for showing my live site only use
+https://reverent-babbage-73b5e4.netlify.app
 
-In the project directory, you can run:
+ first i try to make club description like given image that is why i use dynamically 2 (lorem100).After that i thought i should use data from API which 
+gives me club description. Then I update my code but in netlify live site it change automatically but link was changed.
 
-### `npm start`
+### Live site Link
+https://604a1307fb3dbf8e256a7241--reverent-babbage-73b5e4.netlify.app/ (This link which i used (lorem100). This link i submit in programming hero assignment 8.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://604a2907bf3ebe0088e71b4a--reverent-babbage-73b5e4.netlify.app/club-details/133601 (this link i useed strDescriptionEN,strStadiumDescription) for club description.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Used Functionality and components 
+ Firstly, Here the main function is routing. You can change your route position dynamically. 
+you can go club-details dynamic path for explore your knowledge about club.
 
-### `npm test`
+Secondly, i am using API for reciving data. 2 tyeps of data you will watch.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Thirdly, I am using some beautifull font awesome icon+ using branded social icon also.
 
-### `npm run build`
+ Moreover, I try to make my site responsive for medium device and small device.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inaddition, I am using some Bootstrep component,class, css for looking wow! of my website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Furthermore, I use different try of gradient color, background image for looking great of my site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To sum up, I try my best but we have some limitations like time, new feature knowledge etc which i will improve in future..
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### //....................................................................THANK YOU....................................................................///
