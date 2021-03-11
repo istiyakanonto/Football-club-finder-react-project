@@ -2,8 +2,14 @@
 
 This is my new react project. I hope you like it
 
+*** Please Consider That***
+first i try to make club description like given image that is why i use dynamically 2 (lorem100).After that i thought i should use data from API which 
+gives me club description. Then I update my code but in netlify live site it change automatically but link was changed.
+
 ## Live site Link
-https://604a1307fb3dbf8e256a7241--reverent-babbage-73b5e4.netlify.app/
+https://604a1307fb3dbf8e256a7241--reverent-babbage-73b5e4.netlify.app/ (This link which i used (lrem100). This link i submit in programming hero assignment 8.
+
+https://reverent-babbage-73b5e4.netlify.app/ (this link i useed strDescriptionEN,strStadiumDescription) for club description.
 
 ### Used Functionality and components 
  Firstly, Here the main function is routing. You can change your route position dynamically. 
