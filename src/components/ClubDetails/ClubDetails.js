@@ -25,8 +25,8 @@ const ClubDetails = () => {
                 <img style={{display: 'block',width:'100%',hight:'50px', marginLeft: 'auto', marginRight: 'auto',marginBottom: '20px'}} src={strTeamBanner} />
                 <img  style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '150px', hight: '150px', marginBottom: '40px' }}  src={ strTeamBadge} />
             </div>
-            <div className='box-part mb-5 pl-4'>
-                <div className='details-style '>
+            <div className='row box-part mb-5 pl-4'>
+                <div className=' details-style col-md-3 col-sm-12'>
                     <h5>Name: {strTeam}</h5>
                     <p><small>  <FontAwesomeIcon icon={faLandmark} />  Founded: {intFormedYear}</small> </p>
                     <p><small> <FontAwesomeIcon icon={faFlag} />  Country: {strCountry}</small> </p>
@@ -34,16 +34,16 @@ const ClubDetails = () => {
                   <p><small><FontAwesomeIcon icon={faVenusMars} />  Gender: {strGender}</small> </p>
                     
             </div>
-            <div className=' rem justify-content-end align-content-sm-start'>
+            <div className=' col-md-9 col-sm-12 margin-left: 4rem '>
                  {/* Conditional Randering */}
                  {
-                            strGender === 'Male' ? <img src={male} /> : <img src={female} />
+                            strGender === 'Male' ? <img src={male} className='img-fluid' /> : <img src={female}className='img-fluid' />
                         }
             </div>
                 
             </div>
 
-            <div style={{ color: 'white', marginTop: '20px' }}>
+            <div className='' style={{ color: 'white', marginTop: '20px' }}>
                 <p><small>{'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit minima magnam ducimus minus laudantium velit. Maxime perferendis hic assumenda rerum voluptatibus saepe dolores odit. Magnam officiis repudiandae soluta culpa, error architecto saepe sapiente perferendis eveniet tempora excepturi laborum minus accusamus veniam iusto maiores eius distinctio dicta. Hic adipisci amet temporibus aliquid ipsum inventore, voluptatibus ullam dolorum sint repellendus, at quo quia harum maxime porro ipsa! Soluta ipsum, laudantium ea accusamus, dicta error quae delectus, eaque dolore itaque pariatur deserunt aut explicabo aperiam doloremque possimus consequatur. Error aliquid quaerat eum? Obcaecati eligendi libero dolorem quae nisi rerum vitae cumque, cupiditate assumenda?'}</small></p>
                 <p><small>{'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit minima magnam ducimus minus laudantium velit. Maxime perferendis hic assumenda rerum voluptatibus saepe dolores odit. Magnam officiis repudiandae soluta culpa, error architecto saepe sapiente perferendis eveniet tempora excepturi laborum minus accusamus veniam iusto maiores eius distinctio dicta. Hic adipisci amet temporibus aliquid ipsum inventore, voluptatibus ullam dolorum sint repellendus, at quo quia harum maxime porro ipsa! Soluta ipsum, laudantium ea accusamus, dicta error quae delectus, eaque dolore itaque pariatur deserunt aut explicabo aperiam doloremque possimus consequatur. Error aliquid quaerat eum? Obcaecati eligendi libero dolorem quae nisi rerum vitae cumque, cupiditate assumenda?'}</small></p>
             </div>
