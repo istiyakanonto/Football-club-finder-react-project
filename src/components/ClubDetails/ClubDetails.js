@@ -14,7 +14,7 @@ const ClubDetails = () => {
             .then(res => res.json())
             .then(data => setClubDetails(data.teams[0]))
     }, [clubId])
-    const { strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strTeamBanner} = clubDetails
+    const { strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strTeamBanner,strDescriptionEN,strStadiumDescription} = clubDetails
     return (
         <div className='container'>
             <div className='set-style'>
@@ -32,13 +32,13 @@ const ClubDetails = () => {
                 <div className=' col-md-9 col-sm-12 margin-left: 4rem '>
                     {/* Conditional Randering */}
                     {
-                        strGender === 'Male' ? <img src={male} className='img-fluid' alt="Pic Not Found"  /> : <img src={female} className='img-fluid' alt="Pic Not Found"  />
+                        strGender === 'Male' ? <img src={male} className='img-fluid' alt="Pic Not Found"  /> : <img src={female} className='img-fluid'  />
                     }
                 </div>
             </div>
             <div className='' style={{ color: 'white', marginTop: '20px' }}>
-                <p><small>{'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit minima magnam ducimus minus laudantium velit. Maxime perferendis hic assumenda rerum voluptatibus saepe dolores odit. Magnam officiis repudiandae soluta culpa, error architecto saepe sapiente perferendis eveniet tempora excepturi laborum minus accusamus veniam iusto maiores eius distinctio dicta. Hic adipisci amet temporibus aliquid ipsum inventore, voluptatibus ullam dolorum sint repellendus, at quo quia harum maxime porro ipsa! Soluta ipsum, laudantium ea accusamus, dicta error quae delectus, eaque dolore itaque pariatur deserunt aut explicabo aperiam doloremque possimus consequatur. Error aliquid quaerat eum? Obcaecati eligendi libero dolorem quae nisi rerum vitae cumque, cupiditate assumenda?'}</small></p>
-                <p><small>{'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit minima magnam ducimus minus laudantium velit. Maxime perferendis hic assumenda rerum voluptatibus saepe dolores odit. Magnam officiis repudiandae soluta culpa, error architecto saepe sapiente perferendis eveniet tempora excepturi laborum minus accusamus veniam iusto maiores eius distinctio dicta. Hic adipisci amet temporibus aliquid ipsum inventore, voluptatibus ullam dolorum sint repellendus, at quo quia harum maxime porro ipsa! Soluta ipsum, laudantium ea accusamus, dicta error quae delectus, eaque dolore itaque pariatur deserunt aut explicabo aperiam doloremque possimus consequatur. Error aliquid quaerat eum? Obcaecati eligendi libero dolorem quae nisi rerum vitae cumque, cupiditate assumenda?'}</small></p>
+                <p><small>{strDescriptionEN}</small></p>
+                <p><small>{strStadiumDescription}</small></p>
             </div>
             <div className='socoal-menu'>
                 <ul>
