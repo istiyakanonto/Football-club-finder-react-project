@@ -14,12 +14,12 @@ const ClubDetails = () => {
             .then(res => res.json())
             .then(data => setClubDetails(data.teams[0]))
     }, [clubId])
-    const { strTeam, intFormedYear, strCountry, strGender, strStadiumThumb, strTeamBadge, strTeamBanner, strTeamFanart3 } = clubDetails
+    const { strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strTeamBanner} = clubDetails
     return (
         <div className='container'>
             <div className='set-style'>
-                <img style={{ display: 'block', width: '100%', hight: '50px', marginLeft: 'auto', marginRight: 'auto', marginBottom: '20px' }} src={strTeamBanner} />
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '150px', hight: '150px', marginBottom: '40px' }} src={strTeamBadge} />
+                <img style={{ display: 'block', width: '100%', hight: '50px', marginLeft: 'auto', marginRight: 'auto', marginBottom: '20px' }} src={strTeamBanner} alt="Pic Not Found" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '150px', hight: '150px', marginBottom: '40px' }} src={strTeamBadge} alt="Pic Not Found"  />
             </div>
             <div className='row box-part mb-5 pl-4'>
                 <div className=' details-style col-md-3 col-sm-12'>
@@ -32,7 +32,7 @@ const ClubDetails = () => {
                 <div className=' col-md-9 col-sm-12 margin-left: 4rem '>
                     {/* Conditional Randering */}
                     {
-                        strGender === 'Male' ? <img src={male} className='img-fluid' /> : <img src={female} className='img-fluid' />
+                        strGender === 'Male' ? <img src={male} className='img-fluid' alt="Pic Not Found"  /> : <img src={female} className='img-fluid' alt="Pic Not Found"  />
                     }
                 </div>
             </div>
@@ -49,6 +49,7 @@ const ClubDetails = () => {
                 </ul>
             </div>
         </div>
+        
     );
 };
 
