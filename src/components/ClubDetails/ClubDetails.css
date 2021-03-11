@@ -1,25 +1,18 @@
-
 .box-part
 {
-   display: flex;
+    display: flex;
     color:white;
     border: 1px solid tomato;
     background-image: linear-gradient(to right, #f85032, #e73827);
     border-radius: 10px;
     
-/*    
-  
-    */
 }
-
 .box-part img
 {
 height:220px;
  width: 800px;
 }
-
 .socoal-menu ul{
-    
 position:relative;
 top:50%;
 left:50%;

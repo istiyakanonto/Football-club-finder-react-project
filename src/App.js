@@ -3,8 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  
-} from "react-router-dom";
+  } from "react-router-dom";
 import Home from './components/Home/Home';
 import ClubDetails from './components/ClubDetails/ClubDetails';
 import NotFound from './components/NotFound/NotFound';
