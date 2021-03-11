@@ -2,7 +2,7 @@ import React,{} from 'react';
 import { Button, Card } from 'react-bootstrap'
 import './Club.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
+import {faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 const Club = (props) => {
     const { strTeam, idTeam } = props.club || {}
