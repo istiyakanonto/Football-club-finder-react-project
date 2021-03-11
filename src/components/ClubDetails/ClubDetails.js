@@ -14,7 +14,7 @@ const ClubDetails = () => {
             .then(res => res.json())
             .then(data => setClubDetails(data.teams[0]))
     }, [clubId])
-    const { strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strTeamBanner} = clubDetails
+    const { strTeam, intFormedYear, strCountry, strGender, strTeamBadge, strTeamBanner} = clubDetails;
     return (
         <div className='container'>
             <div className='set-style'>
