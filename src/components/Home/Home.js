@@ -13,16 +13,16 @@ const Home = () => {
        const url='https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League'
       fetch(url)
       .then(res=>res.json())
-      .then(data=>setClubs(data.teams.slice(0,15)))
+      .then(data=>setClubs(data.teams.slice(0,18)))
        }, [])
     return (
         <div>
           <div>
            <Header></Header>
         </div>
-        <section id= 'background-color'>
-        <div className='container'>
-        <div className='  row '>
+        <section   style={{marginBottom:'30px'}} id= 'background-color'>
+        <div className='container container-fluid'>
+        <div  className='  row '>
         {
           
            clubs.map(club =><Club club={club}></Club>)

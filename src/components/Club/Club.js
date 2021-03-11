@@ -8,7 +8,7 @@ const Club = (props) => {
        const{strTeam,idTeam}=props.club||{}
     return (
         
-<div className='  col-md-4'>
+<div className=' col-sm-12 col-md-6 col-lg-4 mt-5'>
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpxuwEz0j-f5UOXqjaWvN7wMesK5oju5EqSQ&usqp=CAU" />
   <Card.Body>
