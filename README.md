@@ -4,7 +4,7 @@ This is my new react project. I hope you like it
 
 *** Please Consider That***
 please for showing my live site only use
-reverent-babbage-73b5e4.netlify.app/
+https://reverent-babbage-73b5e4.netlify.app
 first i try to make club description like given image that is why i use dynamically 2 (lorem100).After that i thought i should use data from API which 
 gives me club description. Then I update my code but in netlify live site it change automatically but link was changed.
 
